@@ -2,3 +2,4 @@ pandas
 xgboost
 scikit-learn
 seaborn
+pickle
