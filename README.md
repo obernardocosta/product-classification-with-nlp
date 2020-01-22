@@ -13,3 +13,11 @@ This project also has a folder called *sagemaker* that has **host-model** notebo
 After training and deploying It, Sagemaker gives us an endpoint. To consume this endpoint externally, via a POST HTTP, I implement a Serverless Framework template (in the serverless folder) that creates a Lambda, triggered by the API Gateway POST, that's get a response from Sagemaker Endpoint, as shown below.
 
 ![AWS Diagram](aws-diagram.png)
+
+
+
+## Refs
+- https://www.kaggle.com/baghern/a-deep-dive-into-sklearn-pipelines
+- https://towardsdatascience.com/fine-tuning-xgboost-in-python-like-a-boss-b4543ed8b1e
+- https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+- https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a
